@@ -14,7 +14,7 @@ function iSPalindrome (word) {
         console.log("Palindrome")
     }
     else{
-        console.log("Not Palindrome")
+        console.log("Not Palindrome, now in develop")
     }
     }
 
