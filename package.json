@@ -1,0 +1,11 @@
+{
+  "name": "palindrome",
+  "version": "1.0.0",
+  "description": "An algorithm that checks if the word is a palindrome or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Henrique de Cara",
+  "license": "ISC"
+}
