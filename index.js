@@ -11,12 +11,14 @@ function isPalindrome (word) {
         }
     }
     if (palindrome_count == comp){
-        console.log("Palindrome")
+        return "Palindrome"
     }
     else{
-        console.log("Not Palindrome")
+        return "Not Palindrome"
     }
     }
 
 
 isPalindrome("bioib")
+
+module.exports = isPalindrome;
