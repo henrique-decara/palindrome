@@ -4,7 +4,7 @@
   "description": "An algorithm that checks if the word is a palindrome or not.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha"
   },
   "author": "Henrique de Cara",
   "license": "ISC"
