@@ -1,4 +1,4 @@
-function iSPalindrome (word) {
+function isPalindrome (word) {
     
     const chars = word.split("");
     let comp  = word.length
@@ -14,9 +14,9 @@ function iSPalindrome (word) {
         console.log("Palindrome")
     }
     else{
-        console.log("Not Palindrome, now in develop")
+        console.log("Not Palindrome")
     }
     }
 
 
-iSPalindrome("traxart")
+isPalindrome("bioib")
