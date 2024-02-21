@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "An algorithm that checks if the word is a palindrome or not.",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "mocha"
   },
@@ -13,6 +12,7 @@
     "mocha": "^10.3.0"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "redis": "^4.6.13"
   }
 }
