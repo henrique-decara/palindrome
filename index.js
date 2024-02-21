@@ -1,25 +1,15 @@
-import { createClient } from "redis";
+const express = require('express')
+const app = express()
+const port = 3000
 
-const client = createClient();
-
-client.on('error', err => console.log('Redis Client Error', err));
-
-await client.connect();
-
-await client.set('key', 'value');
-const value = await client.get('key');
-
-await client.hSet('user-session:123', {
-    name: 'John',
-    surname: 'Smith',
-    company: 'Redis',
-    age: 29
+app.get('/', (req, res) => {
+  res.send('Hello World, porra!')
 })
 
-let userSession = await client.hGetAll('user-session:123');
-console.log(JSON.stringify(userSession, null, 2));
-
-console.log(isPalindrome("traxart"))
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+  console.log(isPalindrome("traxart"))
+})
 
 
 function isPalindrome (word) {
@@ -41,8 +31,5 @@ function isPalindrome (word) {
         return "Not Palindrome"
     }
     }
-
-
-isPalindrome("bioib")
 
 // module.exports = isPalindrome;

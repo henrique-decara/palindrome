@@ -1,5 +1,5 @@
 var assert = require('assert');
-const isPalindrome = require('../index')
+const isPalindrome = require('../index.js')
 
 
 describe('isPalindrome', function () {
