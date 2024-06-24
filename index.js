@@ -17,8 +17,3 @@ function isPalindrome (word) {
         return "Not Palindrome"
     }
     }
-
-
-isPalindrome("bioib")
-
-// module.exports = isPalindrome;
