@@ -20,3 +20,7 @@ function isPalindrome (word) {
 
 module.exports = isPalindrome;
 //dssssdsd
+
+//fadfdafda
+
+//fdsafdfda
