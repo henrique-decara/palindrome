@@ -19,3 +19,4 @@ function isPalindrome (word) {
     }
 
 module.exports = isPalindrome;
+//ds
