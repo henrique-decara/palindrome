@@ -19,6 +19,6 @@ function isPalindrome (word) {
     }
 
 
-//isPalindrome("bioib")
+isPalindrome("bioib")
 
-module.exports = isPalindrome;
+// module.exports = isPalindrome;
