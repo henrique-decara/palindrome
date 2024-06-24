@@ -4,8 +4,13 @@
   "description": "An algorithm that checks if the word is a palindrome or not.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha",
+    "cypress:open": "cypress open"
   },
   "author": "Henrique de Cara",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.2",
+    "mocha": "^10.3.0"
+  }
 }

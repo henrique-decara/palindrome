@@ -1,4 +1,4 @@
-function iSPalindrome (word) {
+function isPalindrome (word) {
     
     const chars = word.split("");
     let comp  = word.length
@@ -11,12 +11,14 @@ function iSPalindrome (word) {
         }
     }
     if (palindrome_count == comp){
-        console.log("Palindrome")
+        return "Palindrome"
     }
     else{
-        console.log("Not Palindrome, now in develop")
+        return "Not Palindrome"
     }
     }
 
 
-iSPalindrome("traxart")
+isPalindrome("bioib")
+
+// module.exports = isPalindrome;
