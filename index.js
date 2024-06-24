@@ -18,7 +18,4 @@ function isPalindrome (word) {
     }
     }
 
-
-isPalindrome("bioib")
-
-// module.exports = isPalindrome;
+module.exports = isPalindrome;
