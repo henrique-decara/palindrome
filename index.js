@@ -17,3 +17,5 @@ function isPalindrome (word) {
         return "Not Palindrome"
     }
     }
+
+module.exports = isPalindrome;
