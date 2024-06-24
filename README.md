@@ -8,3 +8,4 @@ To test the application run:
 > npm run test
 
 
+# How to run Jenkins?
