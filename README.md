@@ -9,3 +9,5 @@ To test the application run:
 
 
 # How to run Jenkins?
+
+Just run
