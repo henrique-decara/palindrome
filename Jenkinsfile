@@ -12,6 +12,7 @@ pipeline {
                 echo 'Testing..'
                 bat 'npm i'
                 bat 'npm run test'
+                echo 'Testing completed!'
             }
         }
         stage('Deploy') {
